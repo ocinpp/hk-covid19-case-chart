@@ -29,7 +29,9 @@ python daily-count.py
 
 The PNG file will be overwritten if the same file name is generated.
 
-### venv
+### Virtaul Environment
+
+#### venv
 
 If you prefer to use **venv** to run, please follow the below commands. For example, we wish to have a **venv** with the name `venc`
 
@@ -61,4 +63,44 @@ Leave **venc**
 
 ```bash
 deactivate
+```
+
+#### pipenv
+
+Make sure you have `pipenv` installed. If not, please install using:
+
+```bash
+pip install pipenv
+```
+
+Create the virtual environment and launch the subshell. A Virtualenv location will be created and a `Pipfile` will be created
+
+```bash
+pipenv shell
+```
+
+Install packages
+
+```bash
+pip install requests
+pip install pandas
+pip install matplotlib
+```
+
+Run the script
+
+```bash
+python daily-count.py
+```
+
+Exit the shell
+
+```bash
+exit
+```
+
+Remove the virtual environment if it is no longer needed
+
+```bash
+pipenv --rm
 ```
