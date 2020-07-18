@@ -15,14 +15,10 @@ Please make sure the below packages have been installed
 
 ## How to use
 
-Execute the below command and a PNG file will be generated in the `charts` directory, with the file name containing the latest date provided in the dataset.
-
-```
-daily-count-chart-20200717.png
-```
-
-The PNG file will be overwritten if the same file name is generated.
+Execute the below command and a PNG file will be generated in the `charts` directory, with the file name containing the latest date provided in the dataset (e.g. `daily-count-chart-20200717.png`).
 
 ```bash
 python daily-count.py
 ```
+
+The PNG file will be overwritten if the same file name is generated.
