@@ -29,11 +29,13 @@ python daily-count.py
 
 The PNG file will be overwritten if the same file name is generated.
 
-### Virtaul Environment
+### Virtual Environment
+
+If you prefer to use virtual environment to run, you can refer to the below on `venv` and `pipenv`.
 
 #### venv
 
-If you prefer to use **venv** to run, please follow the below commands. For example, we wish to have a **venv** with the name `venc`
+For example, we wish to have a **venv** with the name `venc`
 
 ```bash
 python -m venv venc
