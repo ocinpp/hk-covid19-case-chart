@@ -6,6 +6,8 @@ This tool is to generate the chart on the daily confirmed cases, showing the cas
 
 ## Prerequisite
 
+Python 3 is requirement to run the script.
+
 Please make sure the below packages have been installed
 
 - Requests
