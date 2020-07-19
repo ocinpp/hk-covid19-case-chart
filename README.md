@@ -1,6 +1,6 @@
 # Chart on Hong Kong COVID-19 Confirmed Cases
 
-This tool is to generate the chart on the daily confirmed cases showing the case classifications.
+This tool is to generate the chart on the daily confirmed cases, showing the case classifications.
 
 ![Sample Chart](sample/daily-count-chart-sample.png)
 
@@ -20,6 +20,8 @@ Clone the repository
 ```bash
 git clone https://github.com/ocinpp/hk-covid19-case-chart.git
 ```
+
+Create a directory `charts` where the generate charts will be stored
 
 Execute the below command and a PNG file will be generated in the `charts` directory, with the file name containing the latest date provided in the dataset (e.g. `daily-count-chart-20200717.png`).
 
