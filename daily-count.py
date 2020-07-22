@@ -13,7 +13,7 @@ def get_summary_df():
         'http://www.chp.gov.hk/files/misc/enhanced_sur_covid_19_eng.csv')
     file_object = io.StringIO(response.content.decode('utf-8'))
     df_confirmed_case = pd.read_csv(file_object)
-    df_confirmed_case['Name of hospital admitted'] = df_confirmed_case['Name of hospital admitted'].str.strip()
+    # df_confirmed_case['Name of hospital admitted'] = df_confirmed_case['Name of hospital admitted'].str.strip()
     df_confirmed_case['Hospitalised/Discharged/Deceased'] = df_confirmed_case['Hospitalised/Discharged/Deceased'].str.strip()
     df_confirmed_case['Case classification*'] = df_confirmed_case['Case classification*'].str.strip()
     df_confirmed_case['Confirmed/probable'] = df_confirmed_case['Confirmed/probable'].str.strip()
